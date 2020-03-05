@@ -781,6 +781,9 @@ body {
 }
 .block-slider {
 	text-align: center;
+	@media(min-width:1650px) {
+		margin-bottom: 180px;
+	}
 	h3 {
 		color: $accent-color;
 		margin-bottom: 5px;
